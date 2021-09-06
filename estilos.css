@@ -4,6 +4,11 @@
   src: url(GREENSEA.otf);
 }
 
+@font-face {
+  font-family: fonteSobre;
+  src: url(Winter_Insight.otf);
+}
+
 
 /* Padronizar tags */
 *{
@@ -60,12 +65,13 @@ header a:hover{
 
 /* Conteúdo principal */
 main{
-  width: 1100px;
-  margin: 0 auto;
+  
 }
 
 .sobre{
   overflow: hidden;
+  width: 1100px;
+  margin: 0 auto;
 }
 
 .sobre h1{
@@ -90,6 +96,8 @@ main{
 /* Imagens */
 .imagens{
   overflow: hidden;
+  width: 1100px;
+  margin: 0 auto;
 }
 .imagens h1{
   font-size: 32px;
@@ -116,4 +124,78 @@ footer p{
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.sobreNos img{
+  width: 510px;
+  float: left;
+}
+
+.sobreNos p{
+  width: 430px;
+  font-size: 30px;
+  float: right;
+  margin-top: 63px;
+  font-family: fonteSobre;
+  margin-right: 25px;
+}
+
+.sobreNos h1{
+  font-size: 58px;
+  margin-top: 17px;
+  color: rgb(207, 30, 30);
+  text-align: center;
+  font-family: fonteSobre;
+}
+
+.sobreNos{
+  overflow: hidden;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.quemSomos img{
+  width: 600px;
+  float: right;
+  margin-top: 75px;
+  margin-right: 75px;
+}
+
+.quemSomos{
+  overflow: hidden;
+  background-color: rgb(245, 244, 244);
+}
+
+.missao{
+  background-color: rgb(250, 249, 249);
+  width: 450px;
+  margin-top: 75px;
+  margin-left: 100px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgb(209, 208, 208);
+}
+
+.valores,
+.visao{
+  background-color: rgb(250, 249, 249);
+  width: 450px;
+  margin-left: 100px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgb(209, 208, 208);
+}
+
+div h1{
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+div p{
+  padding: 15px;
+  color: rgb(112, 110, 110);
+  font-size: 17px;
 }
