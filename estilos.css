@@ -199,3 +199,56 @@ div p{
   color: rgb(112, 110, 110);
   font-size: 17px;
 }
+
+.contato{
+  background-color: rgb(232, 235, 241);
+  height: 180px;
+}
+
+.contato h1{
+  padding: 75px;
+  font-size: 32px;
+  color: #2D3954;
+  font-family: fonteEcoVerde;
+}
+
+form{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 60px;
+}
+input{
+  overflow: hidden;
+  width: 340px;
+  height: 55px;
+  margin-top: 30px;
+  margin-right: 20px;
+  background-color: #f2f3f5;
+  border: #e0ecf5;;
+}
+
+.faleConosco h1{
+  font-size: 30px;
+}
+
+.faleConosco p{
+  float: right;
+  margin-top: 105px;
+  margin-right: 90px;
+  font-size: 16px;
+}
+
+textarea{
+  width: 687px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 35px;
+  background-color: #f2f3f5;
+  border: #e0ecf5;;
+}
+
+button{
+  padding: 9px;
+  
+}
